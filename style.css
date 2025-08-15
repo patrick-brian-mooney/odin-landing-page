@@ -192,4 +192,38 @@ button {
     color: #1f2937;
 }
 
+.footer {
+    max-width: 900px;
+    padding: 48px 96px;
+    width: 100%;
+    flex: 1 1 100%;
+    align-content: stretch;
+    margin: 48px auto;
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 16px;
+}
 
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    justify-content: flex-start;
+    color: white;
+}
+
+.footer-right {
+    display: flex;
+    margin-left: auto;
+    flex: 1 1 100%;
+    justify-content: flex-end;
+}
+
+.footer-right button {
+    border: 1px solid white;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+}
