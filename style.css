@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     margin: auto;
+    align-items: stretch;
 }
 
 .header {
@@ -102,6 +103,8 @@
 
 .image-placeholder p {
     flex: 1;
+    font-size: 14px;
+    color: #1f2937;
 }
 
 .hero-button-holder {
@@ -116,4 +119,61 @@ button {
     font-weight: bold;
     padding: 8px 24px;
     border-radius: 8px;
+}
+
+.random-information {
+    align-content: space-between;
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 72px auto;
+}
+
+.random-info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 36px;
+}
+
+.info-carousel {
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.carousel-item {
+    max-width: 180px;
+    margin: auto 16px;
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+.carousel-item img {
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+}
+
+.carousel-item p {
+    flex-wrap: wrap;
+    text-align: center;
+    flex: 1;
+    margin: auto;
+    color: #4b5563;
+}
+
+.pull-quote {
+    background-color: #e5e7eb;
+    width: 100%;
+}
+
+.quote-container {
+    max-width: 800px;
+    margin: 48px auto;
 }
