@@ -94,8 +94,6 @@
     min-width: 400px;
     min-height: 250px;
     flex: 1;
-    background-color: #888;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,7 +213,7 @@ button {
 .footer-right {
     display: flex;
     margin-left: auto;
-    flex: 1 1 100%;
+    flex: auto%;
     justify-content: flex-end;
 }
 
